@@ -5,10 +5,11 @@
   background:#332f2e; 
   border-radius:5px; 
   overflow:hidden; 
-  display:inline-block; 
+  display:block; 
   margin-bottom:10px; 
   box-shadow:0 0 10px #201d1c; 
   margin:0 auto; 
+  margin-top:100px;
 }
 
 .jzdcal {
@@ -60,7 +61,8 @@ span[data-title]:hover:after,
 div[data-title]:hover:after {
   font:11px 'Roboto'; 
   font-weight:400; 
-  content:attr(data-title);  
+  content:attr(data-title); 
+  position:absolute; 
   margin:0 0 100px; 
   background:#282423; 
   border:1px solid #f7f3eb; 
