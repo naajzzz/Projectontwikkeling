@@ -204,6 +204,14 @@ table img{
 
 article{
     display: inline-block;
-    padding-right: 60px;
+    padding:40px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    width: 200px;
+    outline:1px solid black;
+}
+
+.articles{width: 1000px;}
+article img{
     width: 200px;
 }
