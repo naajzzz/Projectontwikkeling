@@ -215,3 +215,10 @@ article{
 article img{
     width: 200px;
 }
+select{
+    color:black;
+    width:364.2px;
+}
+.calendar{
+    display: inline-block;
+}
