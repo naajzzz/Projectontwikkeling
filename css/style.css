@@ -1,0 +1,209 @@
+*{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: black;
+    color: white !important;
+    margin:0;
+    padding: 0;
+}
+h1, h2, h3, h5{
+    font-family: 'KdG', sans-serif;
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------*/
+a{text-decoration: none;color:#999999;}
+a:hover{
+    color: black;
+}
+input{
+    color: #333333;
+    margin-bottom: 30px;
+}
+input[type=text]{
+    background-color: #F0F0F0;
+    border: none;
+    padding: 25px 180px 25px 25px;
+}
+input[type=submit]{
+    text-transform: none;
+    background-color: #85BA50;
+    border: 3px solid #85BA50;
+    font-family: 'proxima-nova', sans-serif !important;
+    color: white;
+    padding: 5px 90px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    height: auto;
+}
+input[type=submit]:hover{
+    text-transform: none;
+    background-color: white;
+    border: 3px solid #85BA10;
+    transition-duration: 0.5s;
+    color: #85BA10;
+}
+input[type=date]{
+    background-color: #F0F0F0;
+    border: none;
+    color: #333333;
+    padding: 15px 70px 15px 20px;
+    border-radius: 5px;
+    color: #333333;
+}
+.helptext{
+    font-size: 14px;
+    color: #666666;
+}
+
+/*-------------------------*/
+i{
+    font-family: 'Font Awesome 5 Brands', sans-serif;
+}
+.social i{
+    background-color: #85BA50;
+    border-radius: 100%;
+    color: white;
+    font-size: 30px;
+    padding: 10px 18px;
+}
+.social{
+    margin-top: 10px;
+}
+
+/*-------------------------*/
+
+button{
+    text-transform: none;
+}
+.buttonFull{
+    background-color: #85BA50;
+    border: 3px solid #85BA50;
+    font-family: 'proxima-nova', sans-serif !important;
+    color: white;
+    margin: 10px;
+    padding: 5px 90px;
+    font-size: 18px;
+    height: auto;
+}
+.buttonFull:hover{
+    background-color: white;
+    border: 3px solid #85BA10;
+    transition-duration: 0.5s;
+    color: #85BA10;
+}
+.buttonBorder{
+    background-color: none;
+    border: 3px solid #85BA50;
+    font-family: ' proxima-nova', sans-serif !important;
+    color: #85BA50;
+    margin-right: 10px;
+    padding: 5px 90px;
+    font-size: 18px;
+    height: auto;
+}
+.buttonBorder:hover{
+    background-color: #85BA50;
+    border: 3px solid #85BA50;
+    font-family: ' proxima-nova', sans-serif !important;
+    color: white;
+    transition-duration: 0.5s;
+}
+/*-------------------*/
+
+nav{
+    background-color: white;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+}
+nav img{
+    height: 80px;
+}
+nav ul{
+    list-style-type: none;
+    height: 80px;
+    padding-top: 30px;
+    float: right;
+}
+nav ul li{
+    display: inline;.buttonFull
+    text-align: center;
+    padding: 0 10px;
+    border-bottom: 0px solid black;
+    padding-bottom: 40px;
+    transition-duration: 0.5s;
+}
+nav .active{
+    color: black;
+    border-bottom: 2px solid #85BA50;
+    padding-bottom: 20px;
+}
+nav ul li:hover{
+    color: black;
+    border-bottom: 2px solid #85BA50;
+    padding-bottom: 20px;
+    transition-duration: 0.5s;
+}
+.models{
+    text-align: left;
+    width: 1000px;
+}
+
+.model1, .model2, .model3, .model4,.model5,.model6{
+    display: inline-block;
+}
+
+
+
+/*----------------------*/
+
+.white {
+    background-color: white;
+    margin: 0;
+}
+.black{
+    color: black !important;
+}
+.svg{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -200px;
+}
+.schuinvlakLinks{
+    margin-left: -450px;
+    margin-right: 100px;
+    width: 90%;
+}
+.schuinvlakRechts{
+    margin-right: -500px;
+    width: 90%;
+}
+.schuinvlakLinksGroot{
+    margin-left: -500px;
+    width: 150%;
+    height: 20%;
+}
+
+table{
+    color:black;
+    width: auto;
+}
+table img{
+    height: 250px;
+    width: 250px;
+}
+
+article{
+    display: inline-block;
+    padding-right: 60px;
+    width: 200px;
+}
