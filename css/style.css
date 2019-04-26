@@ -1,36 +1,56 @@
-*{
+* {
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-body{
+
+body {
     background-color: black;
     color: white !important;
-    margin:0;
-    padding: 0;
-}
-h1, h3, h5{
-    font-family: 'KdG', sans-serif;
-}
-img{
     margin: 0;
     padding: 0;
 }
+
+h1, h3, h5 {
+    font-family: 'KdG', sans-serif;
+}
+h3{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+h4{
+    font-size: 20px;
+    color: #666666;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+
 /*--------------------------*/
-a{text-decoration: none;color:#999999;}
-a:hover{
+nav a {
+    text-decoration: none;
+    color: #999999;
+}
+
+nav a:hover {
     color: black;
 }
-input{
+
+input {
     color: #333333;
     margin-bottom: 30px;
 }
-input[type=text]{
+
+input[type=text] {
     background-color: #F0F0F0;
     border: none;
     padding: 25px 180px 25px 25px;
 }
-input[type=submit]{
+
+input[type=submit] {
     text-transform: none;
     background-color: #85BA50;
     border: 3px solid #85BA50;
@@ -41,14 +61,16 @@ input[type=submit]{
     font-size: 18px;
     height: auto;
 }
-input[type=submit]:hover{
+
+input[type=submit]:hover {
     text-transform: none;
     background-color: white;
     border: 3px solid #85BA10;
     transition-duration: 0.5s;
     color: #85BA10;
 }
-input[type=date]{
+
+input[type=date] {
     background-color: #F0F0F0;
     border: none;
     color: #333333;
@@ -56,169 +78,286 @@ input[type=date]{
     border-radius: 5px;
     color: #333333;
 }
-.helptext{
+
+.helptext {
     font-size: 14px;
     color: #666666;
 }
 
 /*-------------------------*/
-i{
-    font-family: 'Font Awesome 5 Brands', sans-serif;
+
+
+
+.schuinvlak {
+    display: block;
+    max-width: 100%;
+    height: 600px;
+    background: url(../images/intro.png) no-repeat;
+    background-size: cover;
+    background-position: -100px;
 }
-.social i{
-    background-color: #85BA50;
-    border-radius: 100%;
-    color: white;
-    font-size: 30px;
-    padding: 10px 18px;
+.schuinvlakRight {
+    display: block;
+    width: 700px;
+    height: 600px;
+    background: url(../images/schuinvlak.svg) no-repeat;
+    /*background-size: 900px 600px;*/
+    background-position: 20px 0px;
 }
-.social{
-    margin-top: 10px;
+.schuinvlakLeft {
+    display: block;
+    width: 700px;
+    height: 600px;
+    background: url(../images/schuinvlak.svg) no-repeat;
+    background-position: -25px 0px;
+}
+.schuinebovenrand{
+    background: url(../images/schuinebovenrand.png) no-repeat;
+    background-size: cover;
 }
 
+.schuinvlakcontainer {
+    padding-top: 100px;
+    color: black;
+    margin-left: 7%;
+}
+.schuinvlakcontainerSmall {
+    padding-top: 75px;
+    max-width: 600px;
+    color: black;
+    margin-left: 8%;
+}
+.content{
+    padding: 0px 40px;
+}
+.center{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+.scrollover{
+    overflow: auto;
+    white-space: nowrap;
+}
+.background{
+    background: url(../images/openingsuren.png) no-repeat;
+    background-size: 150px;
+}
+.dates{
+    list-style-type: none;
+}
+.dates li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.date{
+    width: 160px;
+}
 /*-------------------------*/
-
-button{
+button {
     text-transform: none;
 }
-.buttonFull{
+button a{
+    text-decoration: none;
+}
+
+.buttonFull {
     background-color: #85BA50;
     border: 3px solid #85BA50;
+    border-radius: 5px;
     font-family: 'proxima-nova', sans-serif !important;
-    color: white;
+    color: white !important;
     margin: 10px;
-    padding: 5px 90px;
-    font-size: 18px;
+    text-align: center;
+    font-size: 15px;
     height: auto;
+    width: 200px;
+    padding: 5px;
+    transition-duration: 0.5s;
 }
-.buttonFull:hover{
+.buttonFull a{
+    font-family: 'proxima-nova', sans-serif !important;
+    font-weight: bold;
+    color: white !important;
+}
+.buttonFull:hover {
     background-color: white;
     border: 3px solid #85BA10;
     transition-duration: 0.5s;
     color: #85BA10;
 }
-.buttonBorder{
+
+.buttonBorder {
     background-color: none;
     border: 3px solid #85BA50;
+    padding: 5px;
+    border-radius: 5px;
     font-family: ' proxima-nova', sans-serif !important;
-    color: #85BA50;
+    color: #85BA50 !important;
     margin-right: 10px;
-    padding: 5px 90px;
-    font-size: 18px;
+    text-align: center;
+    font-size: 15px;
     height: auto;
+    width: 200px;
+    transition-duration: 0.5s;
 }
-.buttonBorder:hover{
+.buttonBorder a{
+    font-family: 'proxima-nova', sans-serif !important;
+    font-weight: bold;
+    color: #85BA50 !important;
+}
+.buttonBorder:hover {
     background-color: #85BA50;
     border: 3px solid #85BA50;
     font-family: ' proxima-nova', sans-serif !important;
     color: white;
     transition-duration: 0.5s;
 }
-/*-------------------*/
 
-nav{
+i {
+    font-family: 'Font Awesome 5 Brands', sans-serif;
+}
+
+.social i {
+    background-color: #85BA50;
+    border-radius: 100%;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+/*-------------------*/
+nav {
     background-color: white;
     color: #999999;
     margin: 0;
     padding: 0;
+    height: 90px;
+}
+
+nav img {
     height: 80px;
 }
-nav img{
-    height: 80px;
-}
-nav ul{
+
+nav ul {
     list-style-type: none;
     height: 80px;
     padding-top: 30px;
     float: right;
 }
-nav ul li{
-    display: inline;.buttonFull
-    text-align: center;
+
+nav ul li {
+    display: inline;
+    .buttonFull text-align: center;
     padding: 0 10px;
     border-bottom: 0px solid black;
     padding-bottom: 40px;
     transition-duration: 0.5s;
 }
-nav .active{
+
+nav .active {
     color: black;
     border-bottom: 2px solid #85BA50;
     padding-bottom: 20px;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     color: black;
     border-bottom: 2px solid #85BA50;
     padding-bottom: 20px;
     transition-duration: 0.5s;
 }
-.models{
+
+.models {
     text-align: left;
     width: 1000px;
 }
 
-.model1, .model2, .model3, .model4,.model5,.model6{
+.model1, .model2, .model3, .model4, .model5, .model6 {
     display: inline-block;
 }
 
-
-
 /*----------------------*/
-
 .white {
     background-color: white;
     margin: 0;
 }
-.black{
+
+.black {
     color: black !important;
 }
-.svg{
-    margin:0;
-    padding:0;
+.grijs{
+    color: #666666;
+}
+
+.svg {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     margin-bottom: -200px;
 }
-.schuinvlakLinks{
+
+.schuinvlakLinks {
     margin-left: -450px;
     margin-right: 100px;
     width: 90%;
 }
-.schuinvlakRechts{
+
+.schuinvlakRechts {
     margin-right: -500px;
     width: 90%;
 }
-.schuinvlakLinksGroot{
+
+.schuinvlakLinksGroot {
     margin-left: -500px;
     width: 150%;
     height: 20%;
 }
 
-table{
-    color:black;
+table {
+    color: black;
     width: auto;
 }
-table img{
+
+table img {
     height: 250px;
     width: 250px;
 }
-
-article{
+article {
     display: inline-block;
-    padding:40px;
+    padding: 40px;
     margin-right: 10px;
     margin-bottom: 50px;
     width: 200px;
-    outline:1px solid black;
+    outline: 1px solid black;
 }
 
-.articles{width: 1000px;}
-article img{
+.articles {
+    width: 1000px;
+}
+
+article img {
     width: 200px;
 }
-select{
-    color:black;
-    width:364.2px;
+
+select {
+    color: black;
+    width: 364.2px;
 }
-.calendar{
+
+.calendar {
     display: inline-block;
+}
+
+footer{
+    height: 50px;
+}
+footer img{
+
 }
