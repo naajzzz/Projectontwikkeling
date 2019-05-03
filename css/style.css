@@ -338,7 +338,7 @@ nav {
     color: #999999;
     margin: 0;
     padding: 0;
-    height: 90px;
+    max-height: 80px;
 }
 
 nav img {
@@ -347,9 +347,8 @@ nav img {
 
 nav ul {
     list-style-type: none;
-    height: 80px;
-    padding-top: 30px;
     float: right;
+    margin: 10px 0;
 }
 
 nav ul li {
@@ -372,6 +371,30 @@ nav ul li:hover {
     border-bottom: 2px solid #85BA50;
     padding-bottom: 20px;
     transition-duration: 0.5s;
+}
+nav ul li:last-of-type:hover {
+    border-bottom: 0px solid #85BA50;
+}
+.navButton {
+    background-color: #85BA50;
+    border: 3px solid #85BA50;
+    border-radius: 5px;
+    font-family: 'proxima-nova', sans-serif !important;
+    font-weight: bold !important;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+    height: 40px;
+    width: 90px;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+.navButton:hover {
+    background-color: white;
+    border: 2px solid #85BA10;
+    transition-duration: 0.5s;
+    color: #85BA10;
 }
 
 .models {
