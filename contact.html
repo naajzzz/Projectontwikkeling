@@ -37,52 +37,101 @@
       <div class="row">
         <div class="ten columns">
             <h1>Contact</h1>
-            <h2>Wanneer je vragen hebt over het FabLab of hulp nodig hebt kan je onze contactinfo gebruiken.</h2>
         </div>
       </div>
     </div>
-    <img src="images/schuinebovenrand.svg" alt="schuin" class="svg">
-    <div class="white">
-        <div class="container">
-          <div class="row">
-            <div class="ten columns">
-                <h2 class="black">Contactinfo</h2>
-                    <p class="black">Campus Hoboken</p>
-                    <p class="black">Salensianenlaan 90</p>
-                    <p class="black">2660 Hoboken</p>
-                    <p class="black">+32 3 613 17 00</p>
-                <h2 class="black">FabLab verantwoordelijken</h2>
-                    <p class="black">Aaron Lejeune</p>
-                    <p class="black">E-mail: aaron.lejeune@fablab.be</p><br>
-                    <p class="black">Koen Leung</p>
-                    <p class="black">E-mail: koen.leung@fablab.be</p><br>
-                    <p class="black">Shahzaib Zia</p>
-                    <p class="black">E-mail: shahzaib.zia@fablab.be</p><br>
-                <h2 class="black">Google Maps</h2>
-                    <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=salensianenlaan%2090&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}</style></div><br>
-                <form action="">
-                    <h2 class="black">Extra vragen?</h2>
-                    <input type="text" placeholder="Naam"><br>
-                    <input type="text" placeholder="Achternaam"><br>
-                    <input type="text" placeholder="E-mail"><br>
-                    <textarea name="message" style="color:black" id="message" cols="45" rows="10" placeholder="Schrijf je bericht"></textarea>
-                    <br>
-                    <input type="submit">
-                </form>
-
+    <div class="schuinvlakContact">
+        <div class="schuinvlakcontainer">
+            <div class="row">
+                <div class="five columns">
+                    <form action="">
+                        <input type="text" placeholder="Email"><br>
+                        <select name="apparatuur" class="black">
+                          <option value="filler" hidden>Waar gaat het over?</option>
+                          <option value="Informatie">Informatie over een toestel</option>
+                          <option value="Vragen">Vragen</option>
+                          <option value="Opmerking">Opmerking</option>
+                          <option value="schade">Ik heb schade vastgesteld</option>
+                        </select><br>
+                        <textarea rows="10" cols="50" type="text" placeholder="Bericht"></textarea><br>
+                        <input type="submit" value="Verzenden">
+                    </form>
                 </div>
             </div>
-          </div>
         </div>
     </div>
-    <img src="images/schuineonderrand.svg" alt="schuin">
-    <div class="container">
+    <div class="container" style="margin-top: 5%">
       <div class="row">
-        <div class="ten columns" style="margin-top: 5%">
-            
+        <div class="ten columns">
+            <h1>Specifiek Contact</h1>
         </div>
       </div>
     </div>
+    <div class="container black" style="margin-top: 2%">
+        <div class="row">
+            <div class="four columns leerkracht">
+                <img src="images/teacher.gif" alt="teacher">
+                <h5 class="centerText">Sai de leerkracht</h5>
+                <p>Elk van de voorbeelden hiernaast heeft een
+    dominant grafisch element in de layout:
+    grafiek, kader, titel, masker of icoon.
+    De andere elementen zijn ondergeschikt.</p>
+    <button class="buttonBorder"><a href="#">Open Mail</a></button>
+            </div>
+            <div class="four columns leerkracht">
+                <img src="images/teacher.gif" alt="teacher">
+                <h5 class="centerText">Koen de leerkracht</h5>
+                <p>Elk van de voorbeelden hiernaast heeft een
+    dominant grafisch element in de layout:
+    grafiek, kader, titel, masker of icoon.
+    De andere elementen zijn ondergeschikt.</p>
+                <button class="buttonBorder"><a href="#">Open Mail</a></button>
+            </div>
+            <div class="four columns leerkracht">
+                <img src="images/teacher.gif" alt="teacher">
+                <h5 class="centerText">Aaron de leerkracht</h5>
+                <p>Elk van de voorbeelden hiernaast heeft een
+    dominant grafisch element in de layout:
+    grafiek, kader, titel, masker of icoon.
+    De andere elementen zijn ondergeschikt.</p>
+    <button class="buttonBorder"><a href="#">Open Mail</a></button>
+            </div>
+        </div>
+    </div>
+    <footer style="margin-top: 40px">
+        <div class="row">
+            <div class="three columns">
+                <img src="images/logoWit.png" id="logo" alt="wit logo">
+            </div>
+            <div class="four columns contactInfo">
+                <h5>Karel de Grote Hogeschool </h5>
+                <p class="bold">Campus Hoboken</p>
+                <p>Salensianenlaan 90</p>
+                <p>2660 Hoboken</p>
+                <p class="bold">Andere vragen?</p>
+                <p>Bel naar: +32 3 613 17 00</p>
+                <p>Mail naar: info@kdg.be</p>
+                <p>Campus Hoboken mailadress: info.iwt@kdg.be</p>
+            </div>
+            <div class="two columns contactInfo">
+                <h5>Openingsuren</h5>
+                <p><span class="bold">Maandag</span> <br>13-20h</p>
+                <p><span class="bold">Dinsdag</span> <br>13-20h</p>
+                <p><span class="bold">Woensdag</span> <br>13-20h</p>
+                <p><span class="bold">Donderdag</span> <br>13-20h</p>
+                <p><span class="bold">Vrijdag</span> <br>13-20h</p>
+                <p><span class="bold">Zondag/Zondag</span><br>Gesloten</p>
+            </div>
+
+            <div class="three columns">
+                <br>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=salensianenlaan%2090&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:300px;width:100%";}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%";}</style></div><br>
+            </div>
+        </div>
+        <div class="row">
+            <p>© 2019 - Karel de Grote Hogeschool Gebruiksvoorwaarden en privacy</p>
+        </div>
+    </footer>
 
 </body>
 </html>

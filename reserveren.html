@@ -23,7 +23,7 @@
                 </div>
                 <div class="nine columns">
                     <ul>
-                        <li class="navItem"><a href="home.html">Home</a></li>
+                        <li class="navItem"><a href="index.html">Home</a></li>
                         <li class="navItem"><a href="toestellen.html">Onze toestellen</a></li>
                         <li class="navItem active"><a href="reserveren.html">Reserveren</a></li>
                         <li class="navItem"><a href="showcase.html">Showcase</a></li>
@@ -35,94 +35,66 @@
         </div>
     </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="ten columns">
-            <h1>Reserveren</h1>
-            <h2>Hier kan je een bezoek boeken naar het FabLab.</h2>
-        </div>
-      </div>
-    </div>
-    <img src="images/schuinebovenrand.svg" alt="schuin" class="svg">
-    <div class="white">
+
+    <div class="schuinvlakHalf">
         <div class="container">
           <div class="row">
             <div class="ten columns">
-                <form action="submit" class="booking">
-                    <input type="text" placeholder="Naam"><br>
-                    <input type="text" placeholder="Achternaam"><br>
-                    <input type="text" placeholder="E-mail"><br>
-                    <input type="text" placeholder="Datum"><br>
-                    <select name="apparatuur" class="black">
-                      <option value="filler" hidden>Kies hier je toestel</option>
-                      <option value="printer">3D printer</option>
-                      <option value="vr">Oculus Rift</option>
-                      <option value="laser">Laser cutter</option>
-                    </select><br>
-                    <input type="submit">
-                </form>
-                <div class="calendar">
-                    <div class="jzdbox1 jzdbasf jzdcal">
-
-                    <div class="jzdcalt">May 2019</div>
-
-                    <span>Su</span>
-                    <span>Mo</span>
-                    <span>Tu</span>
-                    <span>We</span>
-                    <span>Th</span>
-                    <span>Fr</span>
-                    <span>Sa</span>
-
-
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span>1</span>
-                    <span>2</span>
-                    <span class="circle" data-title="3D printer gereserveerd door Koen Leung">3</span>
-                    <span>4</span>
-                    <span>5</span>
-                    <span>6</span>
-                    <span>7</span>
-                    <span>8</span>
-                    <span>9</span>
-                    <span>10</span>
-                    <span>11</span>
-                    <span class="circle" data-title="Laser cutter gereserveerd door Shahzaib Zia">12</span>
-                    <span>13</span>
-                    <span class="circle" data-title="Oculus Rift gereserveerd door Aaron Lejeune">14</span>
-                    <span>15</span>
-                    <span>16</span>
-                    <span>17</span>
-                    <span>18</span>
-                    <span>19</span>
-                    <span>20</span>
-                    <span>21</span>
-                    <span>22</span>
-                    <span>23</span>
-                    <span>24</span>
-                    <span>25</span>
-                    <span>26</span>
-                    <span>27</span>
-                    <span>28</span>
-                    <span>29</span>
-                    <span>30</span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    <span class="jzdb"><!--BLANK--></span>
-                    </div>
-                </div>
+                <h1>Reserveer je toestel</h1>
             </div>
           </div>
+            <div class="row formveldjes">
+              <div class="six columns">
+                  <form action="">
+                      <select name="apparatuur" class="black">
+                        <option value="filler" hidden>toestel</option>
+                        <option value="printer">3D printer</option>
+                        <option value="vr">Oculus Rift</option>
+                        <option value="laser">Laser cutter</option>
+                      </select><br>
+                      <input type="date" placeholder="Datum"><br>
+                      <textarea rows="4" cols="19" type="text" placeholder="Opmerking"></textarea><br>
+                      <input type="submit" value="Reserveer">
+                      <p class="helptext">Of <a href="register.html">registreer</a> als u al nog geen account hebt</p>
+                  </form>
+              </div>
+              </div>
+          </div>
         </div>
-    </div>
+        <footer style="margin-top: 10px">
+            <div class="row">
+                <div class="three columns">
+                    <img src="images/logoWit.png" id="logo" alt="wit logo">
+                </div>
+                <div class="four columns contactInfo">
+                    <h5>Karel de Grote Hogeschool </h5>
+                    <p class="bold">Campus Hoboken</p>
+                    <p>Salensianenlaan 90</p>
+                    <p>2660 Hoboken</p>
+                    <p class="bold">Andere vragen?</p>
+                    <p>Bel naar: +32 3 613 17 00</p>
+                    <p>Mail naar: info@kdg.be</p>
+                    <p>Campus Hoboken mailadress: info.iwt@kdg.be</p>
+                </div>
+                <div class="two columns contactInfo">
+                    <h5>Openingsuren</h5>
+                    <p><span class="bold">Maandag</span> <br>13-20h</p>
+                    <p><span class="bold">Dinsdag</span> <br>13-20h</p>
+                    <p><span class="bold">Woensdag</span> <br>13-20h</p>
+                    <p><span class="bold">Donderdag</span> <br>13-20h</p>
+                    <p><span class="bold">Vrijdag</span> <br>13-20h</p>
+                    <p><span class="bold">Zondag/Zondag</span><br>Gesloten</p>
+                </div>
+
+                <div class="three columns">
+                    <br>
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=salensianenlaan%2090&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:300px;width:100%";}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%";}</style></div><br>
+                </div>
+            </div>
+            <div class="row">
+                <p>© 2019 - Karel de Grote Hogeschool Gebruiksvoorwaarden en privacy</p>
+            </div>
+        </footer>
 
 </body>
 </html>
